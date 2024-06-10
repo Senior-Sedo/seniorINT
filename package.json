@@ -1,0 +1,32 @@
+{
+  "name": "@ssts/int",
+  "description": "Get a random integer number within a range, between two numbers min and max.",
+  "version": "0.0.1",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "homepage": "https://github.com/Senior-Sedo",
+  "repository": {
+    "url": "https://github.com/Senior-Sedo/seniorINT"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "scripts": {
+    "build": "tsup"
+  },
+  "keywords": [
+    "random",
+    "integer",
+    "number",
+    "random-number",
+    "random-integer"
+  ],
+  "author": "Senior Sedo",
+  "license": "MIT",
+  "devDependencies": {
+    "tsup": "^8.1.0",
+    "typescript": "^5.4.5"
+  }
+}
