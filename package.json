@@ -1,7 +1,7 @@
 {
   "name": "@ssts/int",
   "description": "Get a random integer number within a range, between two numbers min and max.",
-  "version": "0.0.3",
+  "version": "0.1.0",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
