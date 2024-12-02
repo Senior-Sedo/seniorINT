@@ -19,17 +19,14 @@ const seniorINT = (min: number, max: number): number => {
   return Math.floor(Math.random() * (max - min + 1) + min);
 };
 
+interface SSTS {
+  seniorINT: typeof seniorINT;
+}
 declare global {
   interface Window {
-    ssts: {
-      seniorINT?: typeof seniorINT;
-    };
+    ssts: SSTS;
   }
 }
-
-if (window != undefined) {
-  window.ssts = {};
-  window.ssts.seniorINT = seniorINT;
-}
+if (window != undefined) window.ssts = { seniorINT };
 
 export default seniorINT;
