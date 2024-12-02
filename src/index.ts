@@ -1,5 +1,5 @@
 /**
- * Generates a random integer number between min and max.
+ * Generates a random integer number between min and max
  * @param {number} min - required
  * @param {number} max - required
  * @returns {number} number
